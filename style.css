@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+}
+
+/*Navigation Bar Styles*/
+.section {
+
+    border: 1px solid red;
+}
+
+.header-link a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+
+}
+
+.header-link {
+
+    list-style-type: none;
+
+}
+
+.links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2%;
+    padding: 1%;
+    background-color: #1f2937;
+
+}
+
+.logo {
+
+display: flex;
+
+}
+
+.logo h4 {
+
+    position: absolute;
+    left: 30px;
+    top: 16px;
+    font-family: "Roboto", sans-serif ;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+
+    
+}
+
+
+
+.dark-blue-bit {
+
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2%;
+    justify-content: center;
+    background-color: #1f2937;
+
+}
+
+.dark-blue-bit .image {
+
+    width: 300px;
+    height: 400px;
+}
+
+.dark-blue-bit .image img {
+
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+
+
+.text-and-sign-up h1 {
+
+    max-width: 70%;
+    font-weight: 1600;
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    color: #f9faf8;
+
+}
+
+.text-and-sign-up p {
+
+    font-size: 18px;
+    color: #f9faf8; 
+    margin-right: 10%;
+
+}
+
+.text-and-sign-up button {
+
+    border-radius: 12px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+
+}
