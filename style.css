@@ -2,15 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid green;
     font-family: "Roboto", sans-serif;
 }
 
 /*Navigation Bar Styles*/
-.section {
-
-    border: 1px solid red;
-}
 
 .header-link a {
 
@@ -197,4 +192,81 @@ display: flex;
     font-weight: 800;
     font-size: 18px;
     margin-bottom:  10%; ;
+}
+
+/*Call To Action*/
+.cfa-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 30% 10% 30%;
+
+}
+
+.cfa-container .call-to-action {
+
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10% 5% 10% ;
+    background-color: #3882f6;
+    border-radius: 12px;
+    gap: 200px;
+}
+
+.call-to-action h2 {
+
+    font-size: 18px;
+    color: #f9faf8;
+
+}
+
+.call-to-action p   {
+
+    color: #f9faf8; 
+
+}
+
+.call-to-action button {
+
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    width: 100px;
+    height: max-content;
+    padding: 5px 20px 5px 20px;
+
+
+}
+
+.call-to-action .text {
+
+    width: max-content;
+
+}
+
+.sign-up-button {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Footer*/
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer p {
+
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
 }
